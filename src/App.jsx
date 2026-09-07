@@ -3,6 +3,7 @@ import './App.css'
 import { Tarea } from './components/Tarea'
 import { Lista } from './components/Lista'
 
+
 function App() {
   const [texto, setTexto] = useState('')
   const [tareas, setTareas] = useState(()=>{
